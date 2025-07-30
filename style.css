@@ -189,6 +189,7 @@ body{
 .section-decription{
     color: var(--gray);
     font-size: 1.13rem;
+    text-align: justify;
 }
 
 
@@ -464,6 +465,7 @@ body{
 
 .feature-description{
     color: white;
+    text-align: justify;
 }
 
 .technology-paragraph{
@@ -955,4 +957,60 @@ ul{
   .menu-button {
     display: none;
   }
+}
+
+.publication-container {
+    padding: 60px 20px;
+    background-color: #f5f7fa;
+}
+
+.publication-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.publication-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.publication-desc {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.publication-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.publication-link:hover {
+    text-decoration: underline;
+}
+.publication-desc {
+    text-align: justify;
 }
